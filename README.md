@@ -1,7 +1,7 @@
 # EchoModel: Gelişmiş, Modüler Büyük Dil Modeli
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-In%20Progress-blue" alt="Project >
+  <img src="https://img.shields.io/badge/Status-In%20Progress-blue" alt="Project">
   <img src="https://img.shields.io/badge/Built%20With-PyTorch-red" alt="Built With PyTorch">
   <img src="https://img.shields.io/badge/Contributors-aydndglr" alt="Contributors">
 </p>
