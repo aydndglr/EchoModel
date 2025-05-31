@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Status-In%20Progress-blue" alt="Project Status">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
   <img src="https://img.shields.io/badge/Built%20With-PyTorch-red" alt="Built With PyTorch">
-  <img src="https://img.shields.io/badge/Contributors-aydn--dglr%20%26%20Gemini%20AI-purple" alt="Contributors">
+  <img src="https://img.shields.io/badge/Contributors-aydndglr" alt="Contributors">
 </p>
 
 ---
