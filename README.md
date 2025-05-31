@@ -1,8 +1,7 @@
 # EchoModel: Gelişmiş, Modüler Büyük Dil Modeli
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-In%20Progress-blue" alt="Project Status">
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  <img src="https://img.shields.io/badge/Status-In%20Progress-blue" alt="Project >
   <img src="https://img.shields.io/badge/Built%20With-PyTorch-red" alt="Built With PyTorch">
   <img src="https://img.shields.io/badge/Contributors-aydndglr" alt="Contributors">
 </p>
@@ -107,7 +106,7 @@ Proje, açık kaynaklıdır ve katkılara açıktır. Her türlü katkı (hata d
 
 ## 📜 Lisans
 
-Bu proje, **MIT Lisansı** altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
+Bu proje, **Apache 2.0** altında lisanslanmıştır ayrıca ticari kullanim icin ek sartlar bulunmaktadır . Daha fazla bilgi için `LICENSE` dosyasına bakın.
 
 ---
 
