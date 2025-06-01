@@ -1,0 +1,79 @@
+# LICENSE
+
+---
+# Turkish / Türkçe
+---
+
+## EchoModel - Kısıtlı Kullanım Lisansı
+
+**Tüm Hakları Saklıdır © 2025 github.com/aydndglr (Aydın DAĞLAR)**
+
+Bu yazılım ve ilgili dokümantasyon dosyaları ("Yazılım"), aşağıdaki koşullar altında lisanslanmıştır. Bu lisans, Apache Lisansı, Sürüm 2.0'ın temel koşullarını taşımakla birlikte, özellikle ticari kullanım ve dağıtım konusunda ek kısıtlamalar içermektedir.
+
+**Apache Lisansı, Sürüm 2.0'ın Tüm Hüküm ve Koşulları Bu Lisans Kapsamındadır ve Aşağıdaki Ek Madde Bu Hükümleri Kısıtlar ve Tamamlar:**
+
+---
+
+### EK MADDE: Ticari Kullanım ve Dağıtım Kısıtlaması
+
+Yazılımın ve içerdiği tüm kaynak kodunun, derlenmiş çıktılarının, eğitimli modellerin, model ağırlıklarının, oluşturulan çıktıların ve Yazılımdan türetilmiş herhangi bir eserin ticari olarak kullanılması, dağıtılması, yeniden lisanslanması veya satılması **kesinlikle yasaktır.**
+
+Ticari kullanım, aşağıdakileri kapsayan ancak bunlarla sınırlı olmayan, doğrudan veya dolaylı olarak kar, gelir veya ticari avantaj elde etmeyi amaçlayan herhangi bir faaliyeti ifade eder:
+
+* Yazılımı veya türevlerini, bir ürün veya hizmetin parçası olarak sunmak.
+* Yazılımı veya türevlerini kullanarak ücretli hizmetler (örn. API hizmetleri, danışmanlık, barındırma hizmetleri) sağlamak.
+* Yazılımı veya türevlerini, şirket içi ticari operasyonların bir parçası olarak kullanmak.
+* Yazılımı veya türevlerini, ticari bir organizasyonun yararına araştırma, geliştirme, test veya üretim amaçlı kullanmak.
+
+Yazılımın ticari amaçlarla herhangi bir kullanımı veya dağıtımı, **[aydndglr]'ın açık yazılı izni ve ayrı bir ticari lisans sözleşmesi** olmaksızın yasal değildir.
+
+İzinsiz kopyalama, dağıtım, barındırma veya ticari amaçlı kullanım durumunda, tüm yasal haklarımızı kullanma hakkımız saklıdır.
+
+---
+
+### Garanti Reddi ve Sorumluluk Sınırlaması
+
+Yazılım, "olduğu gibi" sağlanmıştır. Yazarlar veya telif hakkı sahipleri, Yazılımın kullanımından veya başka işlemlerinden doğan hiçbir iddia, hasar veya başka yükümlülükten sorumlu tutulamaz.
+
+İzin talepleri ve işbirliği için lütfen [aydn.daglar@outlook.com] adresinden iletişime geçin.
+
+---
+---
+
+# English / İngilizce
+---
+
+## EchoModel - Restricted Use License
+
+**All Rights Reserved © 2025 github.com/aydndglr (Aydın DAĞLAR)**
+
+This software and associated documentation files (the "Software") are licensed under the following terms and conditions. This license incorporates the fundamental terms of the Apache License, Version 2.0, but includes specific additional restrictions, particularly regarding commercial use and distribution.
+
+**All Terms and Conditions of the Apache License, Version 2.0 Are Included Herein, and the Following Additional Clause Restricts and Supplements Those Terms:**
+
+---
+
+### ADDITIONAL CLAUSE: Restriction on Commercial Use and Distribution
+
+Commercial use, distribution, sublicensing, or sale of the Software, and all its included source code, compiled outputs, trained models, model weights, generated outputs, and any derivative works thereof, is **strictly prohibited.**
+
+Commercial use refers to any activity aiming to generate profit, revenue, or commercial advantage, directly or indirectly, including but not limited to:
+
+* Offering the Software or its derivatives as part of a product or service.
+* Providing paid services (e.g., API services, consulting, hosting services) using the Software or its derivatives.
+* Using the Software or its derivatives as part of internal commercial operations of a company.
+* Using the Software or its derivatives for research, development, testing, or production purposes for the benefit of a commercial organization.
+
+Any use or distribution of the Software for commercial purposes is unlawful without the **express written permission and a separate commercial licensing agreement from [aydndglr].**
+
+In case of unauthorized copying, distribution, hosting, or commercial use, we reserve the right to enforce all our legal rights.
+
+---
+
+### Disclaimer of Warranty and Limitation of Liability
+
+The Software is provided "as is". In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the Software or the use or other dealings in the Software.
+
+For permission requests and collaboration, please contact [aydn.daglar@outlook.com].
+
+---

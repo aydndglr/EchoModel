@@ -1,0 +1,82 @@
+# .gitignore
+
+# Python Derleme Çıktıları
+__pycache__/
+*.pyc
+*.pyd
+*.egg-info/
+.Python
+.pytest_cache/
+.tox/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+htmlcov/
+.coverage
+
+# Editör ve IDE Dosyaları
+.idea/             # IntelliJ / PyCharm
+.vscode/           # VS Code
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~                 # Emacs backup files
+
+# İşletim Sistemi Dosyaları
+.DS_Store          # macOS
+.Trashes           # macOS
+ehthumbs.db        # Windows thumbnails
+Thumbs.db          # Windows thumbnails
+Desktop.ini        # Windows
+.directory         # Linux (KDE)
+
+# Sanal Ortamlar
+.venv/
+venv/
+env/
+/bin/ # Eğer sanal ortamlar projenin kökünde değilse ve genel olarak /bin klasörü oluşturuluyorsa
+/include/
+/lib/
+/share/
+
+# Bağımlılık Yöneticileri
+Pipfile.lock # pipenv kilit dosyası
+poetry.lock # poetry kilit dosyası
+
+# Veri Dosyaları ve Dizinleri (Büyük Olabilir ve Depoya Eklenmemeli)
+data/raw/           # Ham veri
+data/processed/     # İşlenmiş veri
+!data/raw/.gitkeep      # Boş klasörleri Git'e eklemek için
+!data/processed/.gitkeep # Boş klasörleri Git'e eklemek için
+
+# Çıktı Dizinleri (Eğitim, Loglar, Checkpoint'ler)
+runs/               # src/main.py'nin varsayılan output_dir'i
+logs/               # Log dosyaları
+saved_models/       # Kaydedilmiş model checkpoint'leri
+tokenizer_assets/   # Eğitilen tokenizer'ların çıktıları
+!runs/.gitkeep
+!logs/.gitkeep
+!saved_models/.gitkeep
+!tokenizer_assets/.gitkeep
+
+# Çıkarım (Inference) sırasında oluşabilecek geçici dosyalar
+temp_checkpoints/ # src/inference/predictor.py'nin geçici olarak kullandığı
+
+# Test Çalıştırmaları İçin Oluşturulan Dizinler
+test_runs_char_tokenizer_unit/
+test_runs_alpaca_converter/
+test_runs_hf_converter/
+test_runs_generic_parser/
+test_runs_data_splitter/
+test_runs_dataset/
+test_runs_loss_function/
+test_runs_optimizer/
+test_runs_trainer/
+test_runs_generator/
+test_runs_predictor/
+test_runs_ckpt/
+test_runs_logger/
+
+# Jupyter Notebook Çıktıları
+.ipynb_checkpoints/
+Untitled-1.ipynb

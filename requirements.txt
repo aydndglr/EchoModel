@@ -1,0 +1,15 @@
+# EchoModel Projesi Bağımlılıkları
+# Bu dosyayı pip install -r requirements.txt ile yükleyebilirsiniz.
+torch
+transformers
+tokenizers
+datasets
+accelerate
+safetensors
+pyyaml
+pandas
+pyarrow
+sentencepiece # For SentencePiece tokenizer, if chosen
+protobuf # Often a dependency for transformers/tokenizers
+jsonlines
+tqdm
