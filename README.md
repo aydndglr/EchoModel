@@ -33,7 +33,7 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
 1.  **Projeyi Klonlayın:**
     ```bash
-    git clone [https://github.com/aydndglr/EchoModel.git](https://github.com/aydndglr/EchoModel.git)
+    git clone https://github.com/aydndglr/EchoModel.git
     cd EchoModel
     ```
 
