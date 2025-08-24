@@ -68,13 +68,15 @@ class Trainer:
         # Toplam eğitim adımı sayısını hesapla
         # Her bir epoch için batçe sayısı * epoch sayısı
         self.num_update_steps_per_epoch = len(self.train_dataloader) // self.base_config.gradient_accumulation_steps
-        self.total_training_steps = self.num_update_steps_per_epoch * self.base_config.num_train_epochs # num_train_epochs config'e eklenecek
-        
+
         # `num_train_epochs` BaseConfig'e eklenmediyse varsayılan olarak 3 epoch alalım.
         if not hasattr(self.base_config, 'num_train_epochs'):
             self.base_config.num_train_epochs = 3
-            log.warning(f"BaseConfig'te 'num_train_epochs' bulunamadı. Varsayılan olarak {self.base_config.num_train_epochs} epoch kullanılacak.")
-            self.total_training_steps = self.num_update_steps_per_epoch * self.base_config.num_train_epochs
+            log.warning(
+                f"BaseConfig'te 'num_train_epochs' bulunamadı. Varsayılan olarak {self.base_config.num_train_epochs} epoch kullanılacak."
+            )
+
+        self.total_training_steps = self.num_update_steps_per_epoch * self.base_config.num_train_epochs
 
         self.lr_scheduler = get_scheduler(self.optimizer, self.base_config, self.total_training_steps)
         

@@ -7,6 +7,7 @@ import os
 import sys
 from pathlib import Path
 from datetime import datetime
+import json
 
 import torch
 
@@ -61,8 +62,22 @@ def run_train(args):
         log.warning("Dummy veri veya tokenizer bulunamadı. Lütfen 'preprocess_data' ve 'train_tokenizer' görevlerini çalıştırın.")
         log.warning("Şimdilik geçici dummy veriler oluşturulacak.")
         os.makedirs(dummy_tokenizer_path, exist_ok=True)
-        with open(dummy_train_data_path, "w") as f: f.write("dummy data\n")
-        with open(dummy_eval_data_path, "w") as f: f.write("dummy data\n")
+        # JSONL formatında örnek eğitim ve değerlendirme verileri oluştur
+        sample_train_texts = [
+            {"text": "dummy training text one"},
+            {"text": "another training example"}
+        ]
+        sample_eval_texts = [
+            {"text": "dummy evaluation text"}
+        ]
+        with open(dummy_train_data_path, "w", encoding="utf-8") as f:
+            for entry in sample_train_texts:
+                json.dump(entry, f)
+                f.write("\n")
+        with open(dummy_eval_data_path, "w", encoding="utf-8") as f:
+            for entry in sample_eval_texts:
+                json.dump(entry, f)
+                f.write("\n")
         
         # Basit bir tokenizer eğit (BPE)
         temp_tokenizer_train_file = Path(base_cfg.output_dir) / "temp_tokenizer_train.txt"
