@@ -1,5 +1,6 @@
 # src/model/components/embeddings.py
 
+import math
 import torch
 import torch.nn as nn
 # BaseConfig ve ModelConfig'i içeri aktarıyoruz.
@@ -90,8 +91,8 @@ class EmbeddingLayer(nn.Module):
         token_embeds = self.token_embeddings(input_ids)
         
         # Ölçeklendirme: Orijinal Transformer makalesinde gömmeler sqrt(d_model) ile çarpılır.
-        # Bu, gömmelerin değer aralığını stabilize etmeye yardımcı olur.
-        token_embeds = token_embeds * torch.sqrt(torch.tensor(self.d_model, dtype=token_embeds.dtype))
+        # Tensor oluştururken cihaz uyumsuzluğunu önlemek için float kullanıyoruz.
+        token_embeds = token_embeds * math.sqrt(self.d_model)
         
         # Konumsal gömmeleri ekle
         x = self.positional_embeddings(token_embeds)
