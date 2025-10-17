@@ -78,3 +78,29 @@ setup(
         ],
     },
 )
+
+
+
+
+"""
+
+EchoModel projesini eğitmek için gereken komutlar aşağıda adım adım listelenmiştir:
+
+1. Veri Hazırlığı:
+Bu komut, eğitim verilerini modelin anlayabileceği bir formata getirmek için kullanılır.
+python src/scripts/preprocess_data.py --config configs/data_config.yaml
+
+2. Tokenizer Eğitimi:
+Bu adımda, metin verilerini sayısallaştırmak için bir tokenizer eğitilir.
+python src/scripts/train_tokenizer.py --config configs/tokenizer_config.yaml
+
+3. Model Eğitimi:
+Bu ana komut, hazırlanan veri ve tokenizer ile asıl model eğitimini başlatır.
+python src/main.py --task train --model_config configs/model_config.yaml --train_config configs/training_config.yaml --data_config configs/data_config.yaml
+
+
+4. Metin Üretimi (Inference):
+Eğitilmiş bir modeli kullanarak metin üretmek için bu komutu kullanabilirsiniz. `checkpoint_path` argümanını kendi eğittiğiniz modelin yolu ile değiştirmelisiniz.
+python src/main.py --task generate --checkpoint_path saved_models/your_model.pt --prompt "Buraya başlangıç metnini yazın."
+
+"""
